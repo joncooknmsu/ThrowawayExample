@@ -10,6 +10,9 @@ public Interactor()
 public void interact(String prompt)
 {
     System.out.println("I should respond to (" + prompt + ")");
+    if (prompt.equals("what")) {
+        System.out.println("This is my what response");
+    }
 }
 
 public static void main(String[] args)
