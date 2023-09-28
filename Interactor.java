@@ -4,7 +4,7 @@ public class Interactor
 
 public Interactor()
 {
-    System.out.println("Welcome to the Interactor!");
+    System.out.println("Welcome to the Interactor -- have fun!");
 }
 
 public void interact(String prompt)
