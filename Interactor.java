@@ -12,6 +12,8 @@ public void interact(String prompt)
     System.out.println("I should respond to (" + prompt + ")");
     if (prompt.equals("what")) {
         System.out.println("What does the fox say?");
+    if (prompt.equals("who")) {
+        System.out.println("Who ya gonna call? Ghostbusters!");
     }
 }
 
